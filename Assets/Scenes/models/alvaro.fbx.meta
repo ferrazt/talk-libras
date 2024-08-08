@@ -1,0 +1,463 @@
+fileFormatVersion: 2
+guid: 43c3253b6279c4c4a9ddd225fed98bc9
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CABECA
+    second: {fileID: 2100000, guid: 26ac55c9b5d3f2e4594a842ff6a5f180, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CABELO
+    second: {fileID: 2100000, guid: c719e38f25a9480abd2480ab621a2949, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MatCORPO
+    second: {fileID: 2100000, guid: 105b77b13e3dcfb40aa7fcc7ee4c3c35, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 2
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: Armature.001
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 1
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature.001|Untitled
+      takeName: Armature.001|Untitled
+      internalID: 4482322846793354475
+      firstFrame: 0
+      lastFrame: 179
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature.001
+        weight: 1
+      - path: Armature.001/BnBacia.001
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnBacia
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnBacia/BnBacia_L
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnBacia/BnBacia_L/BnPerna.L
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnBacia/BnBacia_L/BnPerna.L/BnPerna.L_end
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnBacia/BnBacia_R
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnBacia/BnBacia_R/BnPerna.R
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnBacia/BnBacia_R/BnPerna.R/BnPerna.R_end
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.L
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.L/BnBraco.L
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.L/BnBraco.L/BnAntBraco.L
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.L/BnBraco.L/BnAntBraco.L/BnAntBraco.L.001
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.L/BnBraco.L/BnAntBraco.L/BnAntBraco.L.001/BnMao.L
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.L/BnBraco.L/BnAntBraco.L/BnAntBraco.L.001/BnMao.L/BnDedo.1.L
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.L/BnBraco.L/BnAntBraco.L/BnAntBraco.L.001/BnMao.L/BnDedo.1.L/BnDedo.1.L.006
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.L/BnBraco.L/BnAntBraco.L/BnAntBraco.L.001/BnMao.L/BnDedo.1.L/BnDedo.1.L.006/BnDedo.1.L.005
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.L/BnBraco.L/BnAntBraco.L/BnAntBraco.L.001/BnMao.L/BnDedo.1.L/BnDedo.1.L.006/BnDedo.1.L.005/BnDedo.1.L.005_end
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.L/BnBraco.L/BnAntBraco.L/BnAntBraco.L.001/BnMao.L/BnDedo.1.L.001
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.L/BnBraco.L/BnAntBraco.L/BnAntBraco.L.001/BnMao.L/BnDedo.1.L.001/BnDedo.1.L.008
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.L/BnBraco.L/BnAntBraco.L/BnAntBraco.L.001/BnMao.L/BnDedo.1.L.001/BnDedo.1.L.008/BnDedo.1.L.007
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.L/BnBraco.L/BnAntBraco.L/BnAntBraco.L.001/BnMao.L/BnDedo.1.L.001/BnDedo.1.L.008/BnDedo.1.L.007/BnDedo.1.L.007_end
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.L/BnBraco.L/BnAntBraco.L/BnAntBraco.L.001/BnMao.L/BnDedo.1.L.002
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.L/BnBraco.L/BnAntBraco.L/BnAntBraco.L.001/BnMao.L/BnDedo.1.L.002/BnDedo.1.L.010
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.L/BnBraco.L/BnAntBraco.L/BnAntBraco.L.001/BnMao.L/BnDedo.1.L.002/BnDedo.1.L.010/BnDedo.1.L.009
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.L/BnBraco.L/BnAntBraco.L/BnAntBraco.L.001/BnMao.L/BnDedo.1.L.002/BnDedo.1.L.010/BnDedo.1.L.009/BnDedo.1.L.009_end
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.L/BnBraco.L/BnAntBraco.L/BnAntBraco.L.001/BnMao.L/BnDedo.1.L.003
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.L/BnBraco.L/BnAntBraco.L/BnAntBraco.L.001/BnMao.L/BnDedo.1.L.003/BnDedo.1.L.012
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.L/BnBraco.L/BnAntBraco.L/BnAntBraco.L.001/BnMao.L/BnDedo.1.L.003/BnDedo.1.L.012/BnDedo.1.L.011
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.L/BnBraco.L/BnAntBraco.L/BnAntBraco.L.001/BnMao.L/BnDedo.1.L.003/BnDedo.1.L.012/BnDedo.1.L.011/BnDedo.1.L.011_end
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.L/BnBraco.L/BnAntBraco.L/BnAntBraco.L.001/BnMao.L/BnDedo.1.L.004
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.L/BnBraco.L/BnAntBraco.L/BnAntBraco.L.001/BnMao.L/BnDedo.1.L.004/BnDedo.1.L.014
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.L/BnBraco.L/BnAntBraco.L/BnAntBraco.L.001/BnMao.L/BnDedo.1.L.004/BnDedo.1.L.014/BnDedo.1.L.013
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.L/BnBraco.L/BnAntBraco.L/BnAntBraco.L.001/BnMao.L/BnDedo.1.L.004/BnDedo.1.L.014/BnDedo.1.L.013/BnDedo.1.L.013_end
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.R
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.R/BnBraco.R
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.R/BnBraco.R/BnAntBraco.R
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.R/BnBraco.R/BnAntBraco.R/BnAntBraco.R.001
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.R/BnBraco.R/BnAntBraco.R/BnAntBraco.R.001/BnMao.R
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.R/BnBraco.R/BnAntBraco.R/BnAntBraco.R.001/BnMao.R/BnDedo.1.R
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.R/BnBraco.R/BnAntBraco.R/BnAntBraco.R.001/BnMao.R/BnDedo.1.R/BnDedo.1.R.006
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.R/BnBraco.R/BnAntBraco.R/BnAntBraco.R.001/BnMao.R/BnDedo.1.R/BnDedo.1.R.006/BnDedo.1.R.005
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.R/BnBraco.R/BnAntBraco.R/BnAntBraco.R.001/BnMao.R/BnDedo.1.R/BnDedo.1.R.006/BnDedo.1.R.005/BnDedo.1.R.005_end
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.R/BnBraco.R/BnAntBraco.R/BnAntBraco.R.001/BnMao.R/BnDedo.1.R.001
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.R/BnBraco.R/BnAntBraco.R/BnAntBraco.R.001/BnMao.R/BnDedo.1.R.001/BnDedo.1.R.008
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.R/BnBraco.R/BnAntBraco.R/BnAntBraco.R.001/BnMao.R/BnDedo.1.R.001/BnDedo.1.R.008/BnDedo.1.R.007
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.R/BnBraco.R/BnAntBraco.R/BnAntBraco.R.001/BnMao.R/BnDedo.1.R.001/BnDedo.1.R.008/BnDedo.1.R.007/BnDedo.1.R.007_end
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.R/BnBraco.R/BnAntBraco.R/BnAntBraco.R.001/BnMao.R/BnDedo.1.R.002
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.R/BnBraco.R/BnAntBraco.R/BnAntBraco.R.001/BnMao.R/BnDedo.1.R.002/BnDedo.1.R.010
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.R/BnBraco.R/BnAntBraco.R/BnAntBraco.R.001/BnMao.R/BnDedo.1.R.002/BnDedo.1.R.010/BnDedo.1.R.009
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.R/BnBraco.R/BnAntBraco.R/BnAntBraco.R.001/BnMao.R/BnDedo.1.R.002/BnDedo.1.R.010/BnDedo.1.R.009/BnDedo.1.R.009_end
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.R/BnBraco.R/BnAntBraco.R/BnAntBraco.R.001/BnMao.R/BnDedo.1.R.003
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.R/BnBraco.R/BnAntBraco.R/BnAntBraco.R.001/BnMao.R/BnDedo.1.R.003/BnDedo.1.R.012
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.R/BnBraco.R/BnAntBraco.R/BnAntBraco.R.001/BnMao.R/BnDedo.1.R.003/BnDedo.1.R.012/BnDedo.1.R.011
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.R/BnBraco.R/BnAntBraco.R/BnAntBraco.R.001/BnMao.R/BnDedo.1.R.003/BnDedo.1.R.012/BnDedo.1.R.011/BnDedo.1.R.011_end
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.R/BnBraco.R/BnAntBraco.R/BnAntBraco.R.001/BnMao.R/BnDedo.1.R.004
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.R/BnBraco.R/BnAntBraco.R/BnAntBraco.R.001/BnMao.R/BnDedo.1.R.004/BnDedo.1.R.014
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.R/BnBraco.R/BnAntBraco.R/BnAntBraco.R.001/BnMao.R/BnDedo.1.R.004/BnDedo.1.R.014/BnDedo.1.R.013
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnOmbro.R/BnBraco.R/BnAntBraco.R/BnAntBraco.R.001/BnMao.R/BnDedo.1.R.004/BnDedo.1.R.014/BnDedo.1.R.013/BnDedo.1.R.013_end
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnBocaCanto.L
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnBocaCanto.L/BnBocaCanto.L_end
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnBocaCanto.R
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnBocaCanto.R/BnBocaCanto.R_end
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnBochecha.L
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnBochecha.L/BnBochecha.L_end
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnBochecha.R
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnBochecha.R/BnBochecha.R_end
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnDirigeQueixo
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnDirigeQueixo/BnDirigeQueixo_end
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnLabioCentroInfer
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnLabioCentroInfer/BnLabioCentroInfer_end
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnLabioCentroSuper
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnLabioCentroSuper/BnLabioCentroSuper_end
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnMandibula
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnMandibula/BnLingua
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnMandibula/BnLingua/BnLingua.003
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnMandibula/BnLingua/BnLingua.003/BnLingua.001
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnMandibula/BnLingua/BnLingua.003/BnLingua.001/BnLingua.002
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnMandibula/BnLingua/BnLingua.003/BnLingua.001/BnLingua.002/BnLingua.002_end
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnOlho.L
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnOlho.L/BnOlho.L_end
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnOlho.R
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnOlho.R/BnOlho.R_end
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnOlhosMira
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnOlhosMira/BnOlhoMira.L
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnOlhosMira/BnOlhoMira.L/BnOlhoMira.L_end
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnOlhosMira/BnOlhoMira.R
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnOlhosMira/BnOlhoMira.R/BnOlhoMira.R_end
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnPalpebInfe.L
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnPalpebInfe.L/BnPalpebInfe.L_end
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnPalpebInfe.R
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnPalpebInfe.R/BnPalpebInfe.R_end
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnPalpebSuper.L
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnPalpebSuper.L/BnPalpebSuper.L_end
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnPalpebSuper.R
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnPalpebSuper.R/BnPalpebSuper.R_end
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnSobrancCentro
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnSobrancCentro/BnSobrancCentro_end
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnSobrancCentro.L
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnSobrancCentro.L/BnSobrancCentro.L_end
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnSobrancCentro.R
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnSobrancCentro.R/BnSobrancCentro.R_end
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnSobrancLateral.L
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnSobrancLateral.L/BnSobrancLateral.L_end
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnSobrancLateral.R
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/BnSobrancLateral.R/BnSobrancLateral.R_end
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/OCULOS
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/OCULOS.001
+        weight: 1
+      - path: Armature.001/BnBacia.001/BnCol-01/BnCol-02/BnCol-03/BnPescoco/BnCabeca/OculosRedondo
+        weight: 1
+      - path: Armature.001/BnMaoOrient.L
+        weight: 1
+      - path: Armature.001/BnMaoOrient.L/BnMaoOrient.L_end
+        weight: 1
+      - path: Armature.001/BnMaoOrient.R
+        weight: 1
+      - path: Armature.001/BnMaoOrient.R/BnMaoOrient.R_end
+        weight: 1
+      - path: Armature.001/BnPolyV.L
+        weight: 1
+      - path: Armature.001/BnPolyV.L/BnPolyV.L_end
+        weight: 1
+      - path: Armature.001/BnPolyV.R
+        weight: 1
+      - path: Armature.001/BnPolyV.R/BnPolyV.R_end
+        weight: 1
+      - path: Armature.001/ik_FK.L
+        weight: 1
+      - path: Armature.001/ik_FK.L/ik_FK.L_end
+        weight: 1
+      - path: Armature.001/ik_FK.R
+        weight: 1
+      - path: Armature.001/ik_FK.R/ik_FK.R_end
+        weight: 1
+      - path: cabecaModifAlisson
+        weight: 1
+      - path: CABELO__MAPEADO
+        weight: 1
+      - path: CAMERA_35
+        weight: 1
+      - path: CAMERA_35.001
+        weight: 1
+      - path: corpoModifAlisson
+        weight: 1
+      - path: CtrlCabeca
+        weight: 1
+      - path: CtrlMao.L
+        weight: 1
+      - path: CtrlMao.R
+        weight: 1
+      - path: CtrlOlho
+        weight: 1
+      - path: CtrlOlhoGeral
+        weight: 1
+      - path: CtrlOrientMao
+        weight: 1
+      - path: CtrlPolyWire
+        weight: 1
+      - path: CtrlSobrancelhaDi
+        weight: 1
+      - path: CtrlSobrancelhaDir
+        weight: 1
+      - path: dentesInfer
+        weight: 1
+      - path: dentesSuper
+        weight: 1
+      - path: Empty
+        weight: 1
+      - path: Empty.001
+        weight: 1
+      - path: Empty.OCULOS
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      - path: Lamp.002
+        weight: 1
+      - path: LINGUA_e_DENTES_01
+        weight: 1
+      - path: MirarCamera
+        weight: 1
+      - path: OlhoNOVO
+        weight: 1
+      - path: Palpebras.infer
+        weight: 1
+      - path: Palpebras.super
+        weight: 1
+      - path: Sphere.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 1
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: Armature.001
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

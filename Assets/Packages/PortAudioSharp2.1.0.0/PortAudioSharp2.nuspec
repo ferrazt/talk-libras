@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>PortAudioSharp2</id>
+    <version>1.0.0</version>
+    <title>PortAudioSharp2</title>
+    <authors>Benjamin N. Summerton</authors>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/csukuangfj/PortAudioSharp2</projectUrl>
+    <description>.NET wrapper for portaudio supporting Linux, macos, Windows.</description>
+    <releaseNotes>https://gitlab.com/define-private-public/Bassoon</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>portaudio</tags>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="org.k2fsa.portaudio.runtime.linux-x64" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="org.k2fsa.portaudio.runtime.osx-x64" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="org.k2fsa.portaudio.runtime.win-x64" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0">
+        <dependency id="org.k2fsa.portaudio.runtime.linux-x64" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="org.k2fsa.portaudio.runtime.osx-x64" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="org.k2fsa.portaudio.runtime.win-x64" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net7.0">
+        <dependency id="org.k2fsa.portaudio.runtime.linux-x64" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="org.k2fsa.portaudio.runtime.osx-x64" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="org.k2fsa.portaudio.runtime.win-x64" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="org.k2fsa.portaudio.runtime.linux-x64" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="org.k2fsa.portaudio.runtime.osx-x64" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="org.k2fsa.portaudio.runtime.win-x64" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

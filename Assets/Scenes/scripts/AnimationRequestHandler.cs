@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class AnimationRequestHandler : MonoBehaviour
@@ -141,7 +142,8 @@ public class AnimationRequestHandler : MonoBehaviour
             binAnimationLoader.LoadAnimationTarget(animationPath, animationClipName);
 
             Debug.Log("Reproduzindo animação: " + animationClipName);
-            binAnimationLoader.PlayAnimation(animationClipName, 1.5f);
+            
+            binAnimationLoader.PlayAnimation(animationClipName);
             while (binAnimationLoader.IsAnimationPlaying())
             {
                 await Task.Delay(100); // Verificar a cada 100ms

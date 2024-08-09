@@ -19,7 +19,6 @@ Logs
 **/assets/assetstoretools
 /Assets/Plugins/PlasticSCM*
 /assets/plugins/PlasticSCM*
-/Assets/BUNDLER
 .vs
 .gradle
 ExportedObj

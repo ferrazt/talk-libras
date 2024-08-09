@@ -7,6 +7,7 @@ public class BinAnimationLoader : MonoBehaviour
 {
     public GameObject targetModel;
     public Dictionary<string, AnimationClip> loadedClips = new Dictionary<string, AnimationClip>();
+    private float speedAnimation = 1.0f;
 
     void Start()
     {
@@ -83,13 +84,13 @@ public class BinAnimationLoader : MonoBehaviour
         //Debug.Log("Asset Bundle descarregado.");
     }
 
-    public void PlayAnimation(string animationClipName, float speed)
+    public void PlayAnimation(string animationClipName)
     {
         Animation animation = targetModel.GetComponent<Animation>();
         if (animation != null && loadedClips.ContainsKey(animationClipName))
         {
             animation.clip = loadedClips[animationClipName];
-            animation[animationClipName].speed = speed; // Ajustar a velocidade da animação
+            animation[animationClipName].speed = speedAnimation; // Ajustar a velocidade da animação
             animation.Play(animationClipName);
             Debug.Log("Animação reproduzida: " + animationClipName + " com velocidade: " + animation[animationClipName].speed);
         }
@@ -107,5 +108,10 @@ public class BinAnimationLoader : MonoBehaviour
         }
         return false;
 
+    }
+
+    public void SpeedAvatar(float speed)
+    {
+        speedAnimation = speed;
     }
 }

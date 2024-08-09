@@ -30,10 +30,12 @@ public class AudioClient : MonoBehaviour
         Debug.Log("Iniciando a transcrição...");
         animationCompletionSource = new TaskCompletionSource<bool>();
         animationRequestHandler = gameObject.AddComponent<AnimationRequestHandler>();
+
         animationRequestHandler.Initialize(leftPanelTextManager, binAnimationLoader);
         Deepgram.Library.Initialize(LogLevel.Debug);
         Deepgram.Microphone.Library.Initialize();
         liveClient = new LiveClient(DeepgramApiKey);
+
         await Task.Run(() => InitializeAndStartLiveClient());
         Debug.Log("Transcrição iniciada.");
     }

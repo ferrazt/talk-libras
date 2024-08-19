@@ -15,7 +15,7 @@ public class LeftPanelTextManager : MonoBehaviour
 
     public void UpdateText(string newText)
     {
-        if (panelText != null && panelText.text != "Esperando Fala...")
+        if (panelText != null && panelText.text != "")
         {
             panelText.text += "\n" + newText;
         }

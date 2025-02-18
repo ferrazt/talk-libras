@@ -3,46 +3,58 @@ using UnityEngine.UI;
 
 public class RightResizeButton : MonoBehaviour
 {
-    public RectTransform leftPanel;  // Referência ao LeftPanel
-    public RectTransform rightPanel; // Referência ao RightPanel
+    public RectTransform rightPanel; // Referência ao painel direito que será expandido
+    public RectTransform leftPanel;  // Referência ao painel esquerdo que será ocultado
     public Button button;
-    private Vector2 originalSize;    // Tamanho original do RightPanel
-    private Vector2 originalPos;     // Posição original do RightPanel
-    private Vector2 originalOffsetMin; // Original offsetMin
-    private Vector2 originalOffsetMax; // Original offsetMax
-    private bool isExpanded = false; // Estado do painel
+
+    private bool isExpanded = false;
+
+    // Guardar os valores originais do RightPanel
+    private Vector2 originalAnchorMin;
+    private Vector2 originalAnchorMax;
+    private Vector2 originalOffsetMin;
+    private Vector2 originalOffsetMax;
+    private Vector2 originalSize;
+    private Vector2 originalPos;
 
     void Start()
     {
-        // Salvar os valores originais
-        originalSize = rightPanel.sizeDelta;
-        originalPos = rightPanel.anchoredPosition;
+        button.onClick.AddListener(RightToggleSize);
+
+        // Salvar as configurações originais do RightPanel
+        originalAnchorMin = rightPanel.anchorMin;
+        originalAnchorMax = rightPanel.anchorMax;
         originalOffsetMin = rightPanel.offsetMin;
         originalOffsetMax = rightPanel.offsetMax;
-
-        Button btn = GetComponent<Button>();
-        btn.onClick.AddListener(ToggleSize);
+        originalSize = rightPanel.sizeDelta;
+        originalPos = rightPanel.anchoredPosition;
     }
 
-    public void ToggleSize()
+    void RightToggleSize()
     {
-        if (isExpanded)
+        if (!isExpanded)
         {
-            // Voltar para o tamanho original
+            // 1) Ocultar o painel esquerdo
+            leftPanel.gameObject.SetActive(false);
+
+            // 2) Expandir o painel direito para ocupar toda a tela
+            rightPanel.anchorMin = new Vector2(0, 0);
+            rightPanel.anchorMax = new Vector2(1, 1);
+            rightPanel.offsetMin = Vector2.zero;
+            rightPanel.offsetMax = Vector2.zero;
+        }
+        else
+        {
+            // 1) Reexibir o painel esquerdo
+            leftPanel.gameObject.SetActive(true);
+
+            // 2) Restaurar as configurações originais do painel direito
+            rightPanel.anchorMin = originalAnchorMin;
+            rightPanel.anchorMax = originalAnchorMax;
             rightPanel.offsetMin = originalOffsetMin;
             rightPanel.offsetMax = originalOffsetMax;
             rightPanel.sizeDelta = originalSize;
             rightPanel.anchoredPosition = originalPos;
-            leftPanel.gameObject.SetActive(true); // Mostrar o LeftPanel novamente
-        }
-        else
-        {
-            // Esconder o LeftPanel e expandir o RightPanel
-            leftPanel.gameObject.SetActive(false);
-
-            // Definir offsetMin para expandir o RightPanel à esquerda
-            rightPanel.offsetMin = new Vector2(-leftPanel.rect.width, rightPanel.offsetMin.y); // Ajusta o lado esquerdo
-            rightPanel.offsetMax = new Vector2(0, rightPanel.offsetMax.y); // Mantém o lado direito no lugar
         }
 
         isExpanded = !isExpanded;

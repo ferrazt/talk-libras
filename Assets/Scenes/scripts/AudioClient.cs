@@ -13,7 +13,7 @@ using TMPro;
 
 public class AudioClient : MonoBehaviour
 {
-    private const string DeepgramApiKey = "2c401a5aa731ae9bf1be5b9cd7a88723ed80a398";
+    private const string DeepgramApiKey = "9";
     private LiveClient liveClient;
     private Deepgram.Microphone.Microphone microphone;
     public LeftPanelTextManager leftPanelTextManager;
@@ -27,7 +27,7 @@ public class AudioClient : MonoBehaviour
 
     public async Task StartTranscription()
     {
-        Debug.Log("Iniciando a transcrição...");
+        Debug.Log("Iniciando a transcriï¿½ï¿½o...");
         animationCompletionSource = new TaskCompletionSource<bool>();
         animationRequestHandler = gameObject.AddComponent<AnimationRequestHandler>();
 
@@ -37,14 +37,14 @@ public class AudioClient : MonoBehaviour
         liveClient = new LiveClient(DeepgramApiKey);
 
         await Task.Run(() => InitializeAndStartLiveClient());
-        Debug.Log("Transcrição iniciada.");
+        Debug.Log("Transcriï¿½ï¿½o iniciada.");
     }
 
     public async Task StopTranscription()
     {
-        Debug.Log("Parando a transcrição...");
+        Debug.Log("Parando a transcriï¿½ï¿½o...");
         await Task.Run(() => StopAll());
-        Debug.Log("Transcrição parada.");
+        Debug.Log("Transcriï¿½ï¿½o parada.");
     }
 
     private async Task InitializeAndStartLiveClient()
@@ -99,7 +99,7 @@ public class AudioClient : MonoBehaviour
         //    int transcriptLength = transcript.Length;
         //    Debug.Log($"----> Falante: {transcript} (Tamanho: {transcriptLength} caracteres)");
 
-        //    // Se a nova transcrição é um complemento da última
+        //    // Se a nova transcriï¿½ï¿½o ï¿½ um complemento da ï¿½ltima
         //    if (transcriptLength >= lastTranscript.Length && transcript.Substring(0, lastTranscript.Length).Equals(lastTranscript, StringComparison.OrdinalIgnoreCase))
         //    {
         //        accumulatedTranscript = transcript;
@@ -108,8 +108,8 @@ public class AudioClient : MonoBehaviour
         //    }
         //    else
         //    {
-        //        // Se a nova transcrição é diferente, envie a acumulada e atualize
-        //        Debug.Log("Se a nova transcrição é diferente, envie a acumulada e atualize: "  + accumulatedTranscript);
+        //        // Se a nova transcriï¿½ï¿½o ï¿½ diferente, envie a acumulada e atualize
+        //        Debug.Log("Se a nova transcriï¿½ï¿½o ï¿½ diferente, envie a acumulada e atualize: "  + accumulatedTranscript);
         //        //UnityMainThreadDispatcher.Enqueue(() =>
         //        //{
         //        //    animationRequestHandler.SendTextAndHandleAnimation(accumulatedTranscript);
@@ -137,7 +137,7 @@ public class AudioClient : MonoBehaviour
         try
         {
             await liveClient.Connect(liveSchema);
-            Debug.Log("Conexão com o Deepgram estabelecida.");
+            Debug.Log("Conexï¿½o com o Deepgram estabelecida.");
         }
         catch (Exception ex)
         {
@@ -152,18 +152,18 @@ public class AudioClient : MonoBehaviour
 
     private async Task StopAll()
     {
-        Debug.Log("Parando o microfone e a conexão...");
+        Debug.Log("Parando o microfone e a conexï¿½o...");
 
-        // Aguardar a conclusão da animação
+        // Aguardar a conclusï¿½o da animaï¿½ï¿½o
         if (animationCompletionSource != null)
         {
-            // Verificar se o TaskCompletionSource já foi completado
+            // Verificar se o TaskCompletionSource jï¿½ foi completado
             if (!animationCompletionSource.Task.IsCompleted)
             {
                 await animationCompletionSource.Task;
                 Debug.LogWarning("Terminou de liberar o animation");
             }
-            animationCompletionSource = null; // Limpar a referência após a conclusão
+            animationCompletionSource = null; // Limpar a referï¿½ncia apï¿½s a conclusï¿½o
         }
 
         // Stop the microphone

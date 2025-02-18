@@ -26,7 +26,7 @@ public class IconSpeedButtonScript : MonoBehaviour
             }
         }
 
-        binAnimationLoader.SpeedAvatar(1.5f);
+        binAnimationLoader.SpeedAvatar(2.5f);
     }
 
     void UpdateSpeed()
@@ -35,27 +35,27 @@ public class IconSpeedButtonScript : MonoBehaviour
         {
             case "1.0x":
                 speedText.text = "1.5x";
-                binAnimationLoader.SpeedAvatar(1.5f);
+                binAnimationLoader.SpeedAvatar(2.5f);
                 break;
             case "1.5x":
                 speedText.text = "2.0x";
-                binAnimationLoader.SpeedAvatar(2.0f);
+                binAnimationLoader.SpeedAvatar(3.0f);
                 break;
             case "2.0x":
                 speedText.text = "2.5x";
-                binAnimationLoader.SpeedAvatar(2.5f);
+                binAnimationLoader.SpeedAvatar(3.5f);
                 break;
             case "2.5x":
                 speedText.text = "3.0x";
-                binAnimationLoader.SpeedAvatar(3.0f);
+                binAnimationLoader.SpeedAvatar(4.0f);
                 break;
             case "3.0x":
                 speedText.text = "1.0x";
-                binAnimationLoader.SpeedAvatar(1.0f);
+                binAnimationLoader.SpeedAvatar(2.0f);
                 break;
             default:
                 speedText.text = "1.0x";
-                binAnimationLoader.SpeedAvatar(1.0f);
+                binAnimationLoader.SpeedAvatar(2.0f);
                 break;
         }
     }
